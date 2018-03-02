@@ -1,0 +1,41 @@
+server:
+  port: 8888
+
+eureka:
+  instance:
+#    hostname: registry
+#    prefer-ip-address: true
+    metadata-map:
+      user.name: ${security.user.name}
+      user.password: ${security.user.password}
+  client:
+    service-url:
+      defaultZone: http://user:${REGISTRY_SERVER_PASSWORD:password}@registry:8761/eureka/
+
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/realmadred/config-repo.git
+#          clone-on-start: true
+#          search-paths: config-repo
+#          basedir: /usr/local/feng/docker/cloud
+    bus:
+      trace:
+      #跟踪总线事件
+        enabled: true
+  rabbitmq:
+    host: rabbitmq
+    username: feng
+    password: feng
+    port: 5672
+    cache:
+      channel:
+        size: 100
+security:
+  user:
+    name: user
+    password: ${CONFIG_SERVER_PASSWORD:password}
