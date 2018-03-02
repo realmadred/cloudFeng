@@ -24,18 +24,18 @@ spring:
           search-paths: config-repo
           default-label: master
 #          basedir: /usr/local/feng/docker/cloud
-#    bus:
-#      trace:
-#      #跟踪总线事件
-#        enabled: true
-#  rabbitmq:
-#    host: rabbitmq
-#    username: feng
-#    password: feng
-#    port: 5672
-#    cache:
-#      channel:
-#        size: 100
+    bus:
+      trace:
+      #跟踪总线事件
+        enabled: true
+  rabbitmq:
+    host: rabbitmq
+    username: feng
+    password: feng
+    port: 5672
+    cache:
+      channel:
+        size: 100
 security:
   user:
     name: user

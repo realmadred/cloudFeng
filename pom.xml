@@ -12,6 +12,8 @@
     <modules>
         <module>registry</module>
         <module>config</module>
+        <module>servera</module>
+        <module>serverb</module>
     </modules>
 
     <parent>
