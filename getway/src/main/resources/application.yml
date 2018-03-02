@@ -62,11 +62,11 @@ zuul:
     auth:
 #      path: /auth/**
 #      stripPrefix: false
+#不要过滤sensitiveHeaders = new LinkedHashSet(Arrays.asList("Cookie", "Set-Cookie", "Authorization"));
       sensitiveHeaders:
-#    svca-service:
-#      path: /svca/**
-#      sensitiveHeaders:
-#    svcb-service:
+    servicea:
+      sensitiveHeaders:
+    serviceb:
 #      path: /svcb/**
-#      sensitiveHeaders:
+      sensitiveHeaders:
 
