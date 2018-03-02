@@ -46,4 +46,4 @@ security:
     password: ${AUTH_SERVER_PASSWORD:password}
 server:
   port: 5000
-  context-path: /auth
+#  context-path: /uaa

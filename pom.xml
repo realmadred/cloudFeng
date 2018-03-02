@@ -15,6 +15,7 @@
         <module>servera</module>
         <module>serverb</module>
         <module>auth</module>
+        <module>getway</module>
     </modules>
 
     <parent>
