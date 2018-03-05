@@ -12,8 +12,6 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/cloud?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: feng
-  application:
-    name: auth
   cloud:
     config:
       discovery:

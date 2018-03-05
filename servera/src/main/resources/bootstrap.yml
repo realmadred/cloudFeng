@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: servera
+  cloud:
+    config:
+      profile: dev
