@@ -43,6 +43,8 @@ security:
       accessTokenUri: http://localhost:5000/oauth/token
       grant-type: client_credentials
       scope: server
+    resource:
+      user-info-uri: http://127.0.0.1:5000/current
   user:
     name: user
     password: ${SERVICE_A_PASSWORD:password}
