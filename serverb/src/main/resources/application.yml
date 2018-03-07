@@ -40,7 +40,7 @@ security:
     client:
       clientId: serverb
       clientSecret: ${security.user.password}
-      accessTokenUri: http://${authserver.hostname}:${authserver.port}${authserver.contextPath}/oauth/token
+      accessTokenUri: http://localhost:5000/oauth/token
       grant-type: client_credentials
       scope: server
   user:

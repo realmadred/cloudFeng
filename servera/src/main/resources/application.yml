@@ -35,14 +35,20 @@ eureka:
 server:
   port: 8080
 
+auth:
+  hostname: master
+  port: 5000
 security:
+  user:
+    name: user
+    password: ${SERVICE_A_PASSWORD:password}
   oauth2:
     client:
       clientId: servera
       clientSecret: ${security.user.password}
-      accessTokenUri: http://${authserver.hostname}:${authserver.port}${authserver.contextPath}/oauth/token
+      accessTokenUri: http://${auth.hostname}:${auth.port}/oauth/token
       grant-type: client_credentials
       scope: server
-  user:
-    name: user
-    password: ${SERVICE_A_PASSWORD:password}
+
+name: fengNative
+age: 25

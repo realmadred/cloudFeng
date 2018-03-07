@@ -23,7 +23,7 @@ spring:
 #          clone-on-start: true
           search-paths: config-repo
           default-label: master
-#          basedir: /usr/local/feng/docker/cloud
+          basedir: /usr/local/feng/docker/cloud
     bus:
       trace:
       #跟踪总线事件

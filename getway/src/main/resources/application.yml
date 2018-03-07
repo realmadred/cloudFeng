@@ -62,9 +62,11 @@ zuul:
 #      stripPrefix: false
 #不要过滤sensitiveHeaders = new LinkedHashSet(Arrays.asList("Cookie", "Set-Cookie", "Authorization"));
       sensitiveHeaders:
-    servicea:
+    servera:
       sensitiveHeaders:
-    serviceb:
+    config:
+      sensitiveHeaders:
+    serverb:
 #      path: /svcb/**
       sensitiveHeaders:
 
