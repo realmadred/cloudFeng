@@ -9,6 +9,7 @@
         <module name="auth" />
         <module name="config" />
         <module name="getway" />
+        <module name="monitor" />
         <module name="registry" />
         <module name="servera" />
         <module name="serverb" />
@@ -19,6 +20,7 @@
       <module name="cloudFeng" target="1.8" />
       <module name="config" target="1.8" />
       <module name="getway" target="1.8" />
+      <module name="monitor" target="1.8" />
       <module name="registry" target="1.8" />
       <module name="servera" target="1.8" />
       <module name="serverb" target="1.8" />

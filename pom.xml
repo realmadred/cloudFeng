@@ -16,6 +16,7 @@
         <module>serverb</module>
         <module>auth</module>
         <module>getway</module>
+        <module>monitor</module>
     </modules>
 
     <parent>
