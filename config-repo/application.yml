@@ -1,0 +1,28 @@
+eureka:
+  instance:
+    hostname: registry
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://user:${REGISTRY_SERVER_PASSWORD:password}@registry:8761/eureka/
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 5000
+
+auth:
+  hostname: 127.0.0.1
+  port: 5000
+
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://${auth.hostname}:${auth.port}/current

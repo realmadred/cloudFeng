@@ -1,12 +1,12 @@
 spring:
   rabbitmq:
-      username: feng
-      password: feng
-      port: 5672
-      cache:
-        channel:
-          size: 100
-      host: rabbitmq
+    username: feng
+    password: feng
+    port: 5672
+    cache:
+      channel:
+        size: 100
+    host: rabbitmq
   cloud:
     config:
       discovery:
@@ -35,9 +35,6 @@ eureka:
 server:
   port: 8080
 
-auth:
-  hostname: master
-  port: 5000
 security:
   user:
     name: user
@@ -46,7 +43,7 @@ security:
     client:
       clientId: servera
       clientSecret: ${security.user.password}
-      accessTokenUri: http://${auth.hostname}:${auth.port}/oauth/token
+      accessTokenUri: http://127.0.0.1:5000/oauth/token
       grant-type: client_credentials
       scope: server
 
