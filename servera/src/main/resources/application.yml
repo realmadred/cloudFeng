@@ -43,10 +43,10 @@ security:
     client:
       clientId: servera
       clientSecret: ${security.user.password}
-      accessTokenUri: http://127.0.0.1:5000/oauth/token
+      accessTokenUri: http://127.0.0.1:8060/auth/oauth/token
       grant-type: client_credentials
       scope: server
     resource:
-      user-info-uri: http://127.0.0.1:5000/current
+      user-info-uri: http://127.0.0.1:8060/auth/current
 name: fengNative
 age: 25
