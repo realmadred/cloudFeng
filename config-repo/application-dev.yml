@@ -26,3 +26,5 @@ security:
   oauth2:
     resource:
       user-info-uri: http://${auth.hostname}:${auth.port}/current
+
+content: content hello dev
