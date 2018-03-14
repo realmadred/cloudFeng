@@ -27,4 +27,4 @@ security:
     resource:
       user-info-uri: http://${auth.hostname}:${auth.port}/current
 
-content: content hello dev
+content: content hello dev update
