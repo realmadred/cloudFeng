@@ -68,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/config-repo/a-bootiful-client.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -78,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/config/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
-              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="35" />
+              <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -120,7 +120,6 @@
         <option value="$PROJECT_DIR$/config-repo/test-dev.properties" />
         <option value="$PROJECT_DIR$/config-repo/application-run.properties" />
         <option value="$PROJECT_DIR$/config-repo/application-run.yml" />
-        <option value="$PROJECT_DIR$/config/pom.xml" />
         <option value="$PROJECT_DIR$/serverb/src/main/java/com/feng/controller/ServerbController.java" />
         <option value="$PROJECT_DIR$/auth/pom.xml" />
         <option value="$PROJECT_DIR$/auth/src/main/java/com/feng/auth/AuthApplication.java" />
@@ -160,6 +159,7 @@
         <option value="$PROJECT_DIR$/servera/src/test/java/com/feng/test.java" />
         <option value="$PROJECT_DIR$/servera/src/test/java/com/feng/Ab.java" />
         <option value="$PROJECT_DIR$/servera/src/test/java/com/feng/PasswordEncoderTest.java" />
+        <option value="$PROJECT_DIR$/config/pom.xml" />
         <option value="$PROJECT_DIR$/config-repo/a-bootiful-client.properties" />
       </list>
     </option>
@@ -570,7 +570,7 @@
       <workItem from="1520390474712" duration="8509000" />
       <workItem from="1520498370628" duration="3236000" />
       <workItem from="1520907667313" duration="11062000" />
-      <workItem from="1520993276160" duration="2232000" />
+      <workItem from="1520993276160" duration="2717000" />
     </task>
     <task id="LOCAL-00001" summary="config registry">
       <created>1519958344137</created>
@@ -705,11 +705,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520996227918</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="message">
+      <created>1520996958075</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1520996958075</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59603000" />
+    <option name="totallyTimeSpent" value="60088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -775,13 +782,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1138,7 +1138,18 @@
     <entry file="file://$PROJECT_DIR$/config/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="35" />
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1146,7 +1157,7 @@
     <entry file="file://$PROJECT_DIR$/config-repo/a-bootiful-client.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
