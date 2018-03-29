@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a86915f-b40f-400a-ab9e-1c8827af5f59" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverb/src/test/java/com/feng/test/CompletableFuture" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverb/src/test/java/com/feng/test/CompletableFutureTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverb/src/test/java/com/feng/test/TestBloomFilter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,7 +33,52 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="CompletableFutureTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serverb/src/test/java/com/feng/test/CompletableFutureTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="236" column="9" lean-forward="true" selection-start-line="236" selection-start-column="9" selection-end-line="236" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BloomFilterStrategies.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/hash/BloomFilterStrategies.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="209" column="1" lean-forward="true" selection-start-line="209" selection-start-column="1" selection-end-line="209" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBloomFilter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/serverb/src/test/java/com/feng/test/TestBloomFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BloomFilter.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/hash/BloomFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="334" column="35" lean-forward="false" selection-start-line="334" selection-start-column="35" selection-end-line="334" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,8 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/registry/pom.xml" />
-        <option value="$PROJECT_DIR$/registry/src/main/java/com/feng/RegistryApplication.java" />
         <option value="$PROJECT_DIR$/config/src/main/java/com/feng/ConfigApplication.java" />
         <option value="$PROJECT_DIR$/config-repo/test.properties" />
         <option value="$PROJECT_DIR$/config-repo/test-dev.properties" />
@@ -111,6 +153,8 @@
         <option value="$PROJECT_DIR$/config-repo/application-dev.yml" />
         <option value="$PROJECT_DIR$/serverb/src/test/java/com/feng/test/CompletableFutureTest.java" />
         <option value="$PROJECT_DIR$/serverb/src/test/java/com/feng/test/CompletableFuture" />
+        <option value="$PROJECT_DIR$/serverb/src/test/java/com/feng/test/testBloomFilter.java" />
+        <option value="$PROJECT_DIR$/serverb/src/test/java/com/feng/test/TestBloomFilter.java" />
       </list>
     </option>
   </component>
@@ -300,7 +344,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="SpringBoot&#9;FILE&#9;jar://E:/maven_repo/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java&#10;EnableAutoConfigurationImportSelector&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.EnableAutoConfigurationImportSelector&#10;@ConditionalOnMissingBean&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean&#10;Sink &#9;PSI&#9;JAVA://org.springframework.cloud.stream.messaging.Sink&#10;ZuulFilter&#9;PSI&#9;JAVA://com.netflix.zuul.ZuulFilter&#10;PasswordEncoder&#9;FILE&#9;jar://E:/maven_repo/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.class&#10;FrameworkEndpointHandlerMapping&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.FrameworkEndpointHandlerMapping&#10;ScriptUtils&#9;PSI&#9;JAVA://org.springframework.jdbc.datasource.init.ScriptUtils&#10;DefaultTokenServices&#9;FILE&#9;jar://E:/maven_repo/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/DefaultTokenServices.java&#10;RequestCacheAwareFilter&#9;PSI&#9;JAVA://org.springframework.security.web.savedrequest.RequestCacheAwareFilter&#10;LogoutFilter &#9;PSI&#9;JAVA://org.springframework.security.web.authentication.logout.LogoutFilter&#10;HeaderWriterFilter &#9;PSI&#9;JAVA://org.springframework.security.web.header.HeaderWriterFilter&#10;GenericFilterBean&#9;PSI&#9;JAVA://org.springframework.web.filter.GenericFilterBean&#10;String&#9;PSI&#9;JAVA://java.lang.String&#10;FallbackProvider &#9;PSI&#9;JAVA://org.hibernate.validator.parameternameprovider.ParanamerParameterNameProvider#fallBackProvider&#10;ServletDetectionFilter&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.zuul.filters.pre.ServletDetectionFilter&#10;ZuulProperties &#9;PSI&#9;JAVA://org.springframework.cloud.netflix.zuul.filters.ZuulProperties" />
+    <property name="SearchEverywhereHistoryKey" value="Bloom&#9;PSI&#9;JAVA://com.google.common.hash.BloomFilter&#10;SpringBoot&#9;FILE&#9;jar://E:/maven_repo/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java&#10;EnableAutoConfigurationImportSelector&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.EnableAutoConfigurationImportSelector&#10;@ConditionalOnMissingBean&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean&#10;Sink &#9;PSI&#9;JAVA://org.springframework.cloud.stream.messaging.Sink&#10;ZuulFilter&#9;PSI&#9;JAVA://com.netflix.zuul.ZuulFilter&#10;PasswordEncoder&#9;FILE&#9;jar://E:/maven_repo/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.class&#10;FrameworkEndpointHandlerMapping&#9;PSI&#9;JAVA://org.springframework.security.oauth2.provider.endpoint.FrameworkEndpointHandlerMapping&#10;ScriptUtils&#9;PSI&#9;JAVA://org.springframework.jdbc.datasource.init.ScriptUtils&#10;DefaultTokenServices&#9;FILE&#9;jar://E:/maven_repo/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/DefaultTokenServices.java&#10;RequestCacheAwareFilter&#9;PSI&#9;JAVA://org.springframework.security.web.savedrequest.RequestCacheAwareFilter&#10;LogoutFilter &#9;PSI&#9;JAVA://org.springframework.security.web.authentication.logout.LogoutFilter&#10;HeaderWriterFilter &#9;PSI&#9;JAVA://org.springframework.security.web.header.HeaderWriterFilter&#10;GenericFilterBean&#9;PSI&#9;JAVA://org.springframework.web.filter.GenericFilterBean&#10;String&#9;PSI&#9;JAVA://java.lang.String&#10;FallbackProvider &#9;PSI&#9;JAVA://org.hibernate.validator.parameternameprovider.ParanamerParameterNameProvider#fallBackProvider&#10;ServletDetectionFilter&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.zuul.filters.pre.ServletDetectionFilter&#10;ZuulProperties &#9;PSI&#9;JAVA://org.springframework.cloud.netflix.zuul.filters.ZuulProperties" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -337,37 +381,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CompletableFutureTest.test18">
+  <component name="RunManager" selected="Application.TestBloomFilter">
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.feng.auth.AuthApplication" />
       <module name="auth" />
       <envs />
-    </configuration>
-    <configuration name="CompletableFutureTest.test14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.feng.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="serverb" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.feng.test" />
-      <option name="MAIN_CLASS_NAME" value="com.feng.test.CompletableFutureTest" />
-      <option name="METHOD_NAME" value="test14" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="CompletableFutureTest.test15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -499,6 +518,25 @@
       <module name="servera" />
       <envs />
     </configuration>
+    <configuration name="TestBloomFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.feng.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.feng.test.TestBloomFilter" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="serverb" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -598,19 +636,19 @@
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.ServerbApplication" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.AuthApplication" />
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.GetwayApplication" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test14" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test15" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test16" />
-      <item index="9" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test17" />
-      <item index="10" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test18" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test15" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test16" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test17" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test18" />
+      <item index="10" class="java.lang.String" itemvalue="Application.TestBloomFilter" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test18" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test17" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test16" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test15" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test14" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestBloomFilter" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test18" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test17" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test16" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CompletableFutureTest.test15" />
       </list>
     </recent_temporary>
   </component>
@@ -638,7 +676,7 @@
       <workItem from="1521078444723" duration="4762000" />
       <workItem from="1522054520313" duration="509000" />
       <workItem from="1522216062238" duration="4000" />
-      <workItem from="1522217753529" duration="4479000" />
+      <workItem from="1522217753529" duration="9461000" />
     </task>
     <task id="LOCAL-00001" summary="config registry">
       <created>1519958344137</created>
@@ -829,7 +867,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521013564821</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="CompletableFuture">
+      <created>1522223026904</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1522223026904</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -865,10 +910,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76206000" />
+    <option name="totallyTimeSpent" value="81188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -880,7 +926,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40091115" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.356492" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -888,10 +934,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27107063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31435078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22854078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17972103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -922,57 +968,16 @@
     <MESSAGE value="都通过服务网管" />
     <MESSAGE value="PasswordEncoder" />
     <MESSAGE value="message" />
-    <option name="LAST_COMMIT_MESSAGE" value="message" />
+    <MESSAGE value="CompletableFuture" />
+    <option name="LAST_COMMIT_MESSAGE" value="CompletableFuture" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/servera/src/main/java/com/feng/config/ServiceAConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/feng/auth/config/ResourceServerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/DefaultTokenServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="292" column="56" lean-forward="false" selection-start-line="292" selection-start-column="56" selection-end-line="292" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCrypt.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="344" column="0" lean-forward="false" selection-start-line="344" selection-start-column="0" selection-end-line="344" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servera/src/test/java/com/feng/PasswordEncoderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/crypto/codec/Base64.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5116">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/crypto/codec/Hex.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-823">
@@ -1548,14 +1553,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/hash/Hashing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2943">
+          <caret line="139" column="40" lean-forward="false" selection-start-line="139" selection-start-column="29" selection-end-line="139" selection-end-column="40" />
+          <folding>
+            <element signature="e#5237#5238#0" expanded="true" />
+            <element signature="e#5283#5284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/hash/Funnel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/hash/Funnels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3668">
+          <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/serverb/src/test/java/com/feng/test/CompletableFutureTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="249" column="33" lean-forward="false" selection-start-line="249" selection-start-column="33" selection-end-line="249" selection-end-column="33" />
+        <state relative-caret-position="179">
+          <caret line="236" column="9" lean-forward="true" selection-start-line="236" selection-start-column="9" selection-end-line="236" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1901#1902#0" expanded="true" />
-            <element signature="e#1990#1991#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/hash/BloomFilterStrategies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="209" column="1" lean-forward="true" selection-start-line="209" selection-start-column="1" selection-end-line="209" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/hash/BloomFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="334" column="35" lean-forward="false" selection-start-line="334" selection-start-column="35" selection-end-line="334" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverb/src/test/java/com/feng/test/TestBloomFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
