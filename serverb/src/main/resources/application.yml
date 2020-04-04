@@ -1,51 +1,5 @@
 spring:
-  rabbitmq:
-      username: feng
-      password: feng
-      port: 5672
-      cache:
-        channel:
-          size: 100
-      host: rabbitmq
   cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: config
-      fail-fast: true
-#      uri: http://config:8888
-      username: user
-      password: ${CONFIG_SERVER_PASSWORD:password}
-      retry:
-        initial-interval: 2000
-        max-interval: 10000
-        multiplier: 2
-        max-attempts: 10
-eureka:
-  instance:
-#    hostname: registry
-#    prefer-ip-address: true
-    metadata-map:
-      user.name: ${security.user.name}
-      user.password: ${security.user.password}
-  client:
-    service-url:
-      defaultZone: http://user:${REGISTRY_SERVER_PASSWORD:password}@registry:8761/eureka/
-
-server:
-  port: 8081
-
-security:
-  oauth2:
-    client:
-      clientId: serverb
-      clientSecret: ${security.user.password}
-      accessTokenUri: http://localhost:8060/auth/oauth/token
-      grant-type: client_credentials
-      scope: server
-    resource:
-      user-info-uri: http://127.0.0.1:8060/auth/current
-  user:
-    name: user
-    password: ${SERVICE_A_PASSWORD:password}
-
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080

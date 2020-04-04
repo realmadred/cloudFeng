@@ -4,6 +4,7 @@ import com.feng.client.ServiceBClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,12 +18,12 @@ public class HelloController {
     private final static Logger LOGGER = LoggerFactory.getLogger(HelloController.class);
 
     @Autowired
-    ServiceBClient bClient;
+    private ServiceBClient bClient;
 
-    @Value("${name}")
+    @Value("${info.name}")
     private String name;
 
-    @Value("${age}")
+    @Value("${info.age}")
     private String age;
 
     @RequestMapping("/say")
@@ -34,6 +35,6 @@ public class HelloController {
     @RequestMapping("/remote")
     public String remote(){
         System.out.println("say...");
-        return bClient.getb();
+        return bClient.getB();
     }
 }

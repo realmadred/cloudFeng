@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/b")
 public class ServerbController {
 
-    @GetMapping("/getb")
+    @GetMapping("/getB")
     public String getb(){
-        System.out.println("getb...");
+        System.out.println("getB...");
         return "my hello b";
     }
 }
