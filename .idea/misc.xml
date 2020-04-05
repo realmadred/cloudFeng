@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ApiGeneratorConfig">
+    <option name="yApiServerUrl" value="127.0.0.1" />
+    <option name="projectToken" value="11111" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>

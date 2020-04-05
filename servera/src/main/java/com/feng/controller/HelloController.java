@@ -1,5 +1,6 @@
 package com.feng.controller;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.feng.client.ServiceBClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,12 +27,14 @@ public class HelloController {
     private String age;
 
     @RequestMapping("/say")
+    @SentinelResource("hello/say")
     public String say(){
         LOGGER.info("say name:{},age{}",name,age);
         return "hello"+name+age;
     }
 
     @RequestMapping("/remote")
+    @SentinelResource(value = "hello/remote")
     public String remote(){
         System.out.println("say...");
         return bClient.getB();
