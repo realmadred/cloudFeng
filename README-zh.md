@@ -36,7 +36,13 @@ CREATE TABLE `undo_log` (
 
 - nacos: 用于向 Nacos 中添加配置
 
-https://zhuanlan.zhihu.com/p/70252386?from_voters_page=true
+- 修改 conf/registry.conf 将registry下的 type 修改为nacos，以及把config下的type也改为nacos即可
+- 导入配置config.txt 到nacos
+``` $bash
+sh nacos-config.sh localhost
+```
+
+-- 登陆Nacos 控制台 配置列表 筛选 Group=SEATA_GROUP 的配置项
 
 ## 启动seata
 ``` $bash
