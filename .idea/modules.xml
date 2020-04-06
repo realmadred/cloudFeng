@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/business-service/business-service.iml" filepath="$PROJECT_DIR$/business-service/business-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudFeng.iml" filepath="$PROJECT_DIR$/cloudFeng.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/servera/servera.iml" filepath="$PROJECT_DIR$/servera/servera.iml" />
       <module fileurl="file://$PROJECT_DIR$/serverb/serverb.iml" filepath="$PROJECT_DIR$/serverb/serverb.iml" />
       <module fileurl="file://$PROJECT_DIR$/storage-service/storage-service.iml" filepath="$PROJECT_DIR$/storage-service/storage-service.iml" />

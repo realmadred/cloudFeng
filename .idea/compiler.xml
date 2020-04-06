@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="account-service" />
+        <module name="order-service" />
         <module name="gateway" />
         <module name="storage-service" />
         <module name="serverb" />
@@ -22,6 +23,7 @@
       <module name="config" target="1.8" />
       <module name="gateway" target="1.8" />
       <module name="monitor" target="1.8" />
+      <module name="order-service" target="1.8" />
       <module name="registry" target="1.8" />
       <module name="servera" target="1.8" />
       <module name="serverb" target="1.8" />

@@ -15,6 +15,7 @@
         <module>account-service</module>
         <module>business-service</module>
         <module>storage-service</module>
+        <module>order-service</module>
     </modules>
 
     <properties>
