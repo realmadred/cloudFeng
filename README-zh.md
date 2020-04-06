@@ -38,3 +38,8 @@ CREATE TABLE `undo_log` (
 
 https://zhuanlan.zhihu.com/p/70252386?from_voters_page=true
 
+## 启动seata
+``` $bash
+sh seata-server.sh -p 8091 -m file
+```
+
