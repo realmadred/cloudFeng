@@ -6,5 +6,28 @@ spring:
           enabled: true
           lower-case-service-id: true
     sentinel:
+      datasource:
+        gw:
+          nacos:
+            server-addr: 127.0.0.1:8848
+            dataId: ${spring.application.name}-sentinel-gw-flow-rules
+            groupId: SENTINEL_GROUP
+            ruleType: gw-flow
+        gwp:
+          nacos:
+            server-addr: 127.0.0.1:8848
+            dataId: ${spring.application.name}-sentinel-gw-api-group-rules
+            groupId: SENTINEL_GROUP
+            ruleType: gw-api-group
+      transport:
+        dashboard: 127.0.0.1:8080
       filter:
         enabled: true
+      scg.fallback:
+        mode: response
+        response-status: 444
+        response-body: 1234
+      scg:
+        order: -100
+
+management.endpoints.web.exposure.include: "*"
