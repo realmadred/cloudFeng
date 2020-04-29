@@ -27,7 +27,7 @@ public class MqController {
     @GetMapping("/send")
     public boolean send() {
         // <1> 创建 Message
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10000; i++) {
             SaMessage message = new SaMessage()
                     .setId(i).setName(RandomStringUtils.randomAlphanumeric(6))
                     .setAddress(RandomStringUtils.randomAlphabetic(10));

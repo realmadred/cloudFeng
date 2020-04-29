@@ -1,4 +1,4 @@
-package com.feng.bug;
+package com.feng.bus;
 
 import lombok.Data;
 import org.springframework.cloud.bus.event.RemoteApplicationEvent;
