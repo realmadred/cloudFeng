@@ -102,7 +102,7 @@ public class HomeController {
 		return SUCCESS;
 	}
 
-	@GlobalTransactional(timeoutMills = 300000, name = "spring-cloud-demo-tx")
+	@GlobalTransactional(timeoutMills = 10000, name = "spring-cloud-demo-tx")
 	@GetMapping(value = "/seata/feign", produces = "application/json")
 	public String feign() {
 

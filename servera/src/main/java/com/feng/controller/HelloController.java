@@ -2,6 +2,8 @@ package com.feng.controller;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.feng.client.ServiceBClient;
+import com.feng.meter.MyMeter;
+import io.micrometer.core.instrument.binder.MeterBinder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +22,9 @@ public class HelloController {
     @Autowired
     private ServiceBClient bClient;
 
+    @Autowired
+    private MyMeter binder;
+
     @Value("${info.name}")
     private String name;
 
@@ -28,8 +33,15 @@ public class HelloController {
 
     @RequestMapping("/say")
     @SentinelResource("hello/say")
-    public String say(){
+    public String say() throws InterruptedException {
         LOGGER.info("say name:{},age{}",name,age);
+        for (int i = 0; i < 1000; i++) {
+            binder.counter1.increment(Math.random());
+            binder.counter2.increment(Math.random());
+            binder.counter3.increment(Math.random());
+            Thread.sleep(200);
+        }
+
         return "hello"+name+age;
     }
 
