@@ -3,11 +3,16 @@ spring:
     name: dubbo-use-service
   main:
     allow-bean-definition-overriding: true
+    web-application-type: none
 
   # default disable all
   cloud:
     nacos:
+      username: nacos
+      password: nacos
       discovery:
+        enabled: true
+        register-enabled: true
         server-addr: 127.0.0.1:8848
 dubbo:
   scan:
@@ -16,18 +21,16 @@ dubbo:
     dubbo:
       name: dubbo
       port: -1
-  registries:
-    new:
+    rest:
+      name: rest
+      port: 9090
+      server: netty
+    registry:
+      #   The Spring Cloud Dubbo's registry extension
       address: spring-cloud://localhost
-
-server:
-  port: 8080
 
 management:
   endpoints:
     web:
       exposure:
-        include: dubborestmetadata
-logging:
-  level:
-    root: dubug
+        include: '*'
