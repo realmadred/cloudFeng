@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: dubbo-use-service
+  main:
+    allow-bean-definition-overriding: true
+
+  # default disable all
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+dubbo:
+  scan:
+    base-packages: com.feng.service
+  protocols:
+    dubbo:
+      name: dubbo
+      port: -1
+  registries:
+    new:
+      address: spring-cloud://localhost
+
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: dubborestmetadata
+logging:
+  level:
+    root: dubug

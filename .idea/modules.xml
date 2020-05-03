@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/account-service/account-service.iml" filepath="$PROJECT_DIR$/account-service/account-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/business-service/business-service.iml" filepath="$PROJECT_DIR$/business-service/business-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudFeng.iml" filepath="$PROJECT_DIR$/cloudFeng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-api/dubbo-api.iml" filepath="$PROJECT_DIR$/dubbo-api/dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" filepath="$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-use-service/dubbo-use-service.iml" filepath="$PROJECT_DIR$/dubbo-use-service/dubbo-use-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/servera/servera.iml" filepath="$PROJECT_DIR$/servera/servera.iml" />

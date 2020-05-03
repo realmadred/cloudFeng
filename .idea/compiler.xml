@@ -2,13 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-api" />
         <module name="account-service" />
+        <module name="dubbo-use-service" />
         <module name="order-service" />
         <module name="gateway" />
+        <module name="dubbo-consumer" />
         <module name="storage-service" />
         <module name="serverb" />
         <module name="servera" />
@@ -17,14 +21,13 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="account-service" target="1.8" />
-      <module name="auth" target="1.8" />
       <module name="business-service" target="1.8" />
       <module name="cloudFeng" target="1.8" />
-      <module name="config" target="1.8" />
+      <module name="dubbo-api" target="1.8" />
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-use-service" target="1.8" />
       <module name="gateway" target="1.8" />
-      <module name="monitor" target="1.8" />
       <module name="order-service" target="1.8" />
-      <module name="registry" target="1.8" />
       <module name="servera" target="1.8" />
       <module name="serverb" target="1.8" />
       <module name="storage-service" target="1.8" />
