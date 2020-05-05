@@ -82,11 +82,11 @@
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-reactor-adapter:1.7.1" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.cloud:spring-cloud-alibaba-sentinel-datasource:2.2.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2.2.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba.nacos:nacos-client:1.2.0" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba.nacos:nacos-common:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.nacos:nacos-client:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.nacos:nacos-common:1.2.1" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.6" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba.nacos:nacos-api:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.nacos:nacos-api:1.2.1" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.60" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:28.2-jre" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />

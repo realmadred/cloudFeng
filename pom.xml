@@ -39,6 +39,7 @@
         <dom4j.version>1.6.1</dom4j.version>
         <swagger.version>2.7.0</swagger.version>
         <apollo.client.version>1.6.0</apollo.client.version>
+        <!--   这个版本心跳有bug     -->
         <nacos.client.version>1.2.0</nacos.client.version>
         <sentinel.version>1.7.1</sentinel.version>
         <opentracing.version>0.33.0</opentracing.version>
@@ -65,7 +66,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-openfeign-dependencies</artifactId>
-                <version>2.2.0.RELEASE</version>
+                <version>2.2.2.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -142,11 +143,11 @@
                 <version>${swagger.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>com.alibaba.nacos</groupId>
-                <artifactId>nacos-client</artifactId>
-                <version>${nacos.client.version}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>com.alibaba.nacos</groupId>-->
+<!--                <artifactId>nacos-client</artifactId>-->
+<!--                <version>${nacos.client.version}</version>-->
+<!--            </dependency>-->
 
             <dependency>
                 <groupId>com.alibaba.csp</groupId>

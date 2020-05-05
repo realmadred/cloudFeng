@@ -35,10 +35,10 @@ public interface RestService {
 
 	String pathVariables(String path1, String path2, String param);
 
-	String form(String form);
-
+//	String form(String form);
+//
 	UserDto requestBodyMap(Map<String, Object> data, String param);
-
-	Map<String, Object> requestBodyUser(UserDto user);
+//
+//	Map<String, Object> requestBodyUser(UserDto user);
 
 }

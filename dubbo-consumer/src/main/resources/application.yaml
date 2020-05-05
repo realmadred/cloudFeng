@@ -13,9 +13,6 @@ dubbo:
   consumer:
     check: false
 
-server:
-  port: 0
-
 provider:
   application:
     name: dubbo-use-service

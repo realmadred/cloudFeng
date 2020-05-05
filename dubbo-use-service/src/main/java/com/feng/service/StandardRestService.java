@@ -88,13 +88,13 @@ public class StandardRestService implements RestService {
 	// @CookieParam does not support : https://github.com/OpenFeign/feign/issues/913
 	// @CookieValue also does not support
 
-	@Override
-	@Path("form")
-	@POST
-	public String form(@FormParam("f") String form) {
-		return String.valueOf(form);
-	}
-
+//	@Override
+//	@Path("form")
+//	@POST
+//	public String form(@FormParam("f") String form) {
+//		return String.valueOf(form);
+//	}
+//
 	@Override
 	@Path("request/body/map")
 	@POST
@@ -108,17 +108,17 @@ public class StandardRestService implements RestService {
 		log.info("/request/body/map:{}", param);
 		return user;
 	}
-
-	@Path("request/body/user")
-	@POST
-	@Override
-	@Consumes(MediaType.APPLICATION_JSON)
-	public Map<String, Object> requestBodyUser(UserDto user) {
-		Map<String, Object> map = new HashMap<>();
-		map.put("id", user.getId());
-		map.put("name", user.getName());
-		map.put("age", user.getAge());
-		return map;
-	}
+//
+//	@Path("request/body/user")
+//	@POST
+//	@Override
+//	@Consumes(MediaType.APPLICATION_JSON)
+//	public Map<String, Object> requestBodyUser(UserDto user) {
+//		Map<String, Object> map = new HashMap<>();
+//		map.put("id", user.getId());
+//		map.put("name", user.getName());
+//		map.put("age", user.getAge());
+//		return map;
+//	}
 
 }
